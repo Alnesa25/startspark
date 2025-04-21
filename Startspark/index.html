@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ideaova - Discover Your Next Big Idea</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-black text-white p-6 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <img src="logo.png" alt="Ideaova Logo" class="h-10 w-auto">
+        <h1 class="text-2xl font-bold text-orange-500">Ideaova</h1>
+      </div>
+      <nav class="space-x-4 text-sm">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About Us</a>
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#pricing" class="hover:underline">Pricing</a>
+        <a href="#contact" class="hover:underline">Contact Us</a>
+        <a href="#login" class="hover:underline">Register/Login</a>
+        <a href="#location" class="hover:underline">Location</a>
+        <a href="#language" class="hover:underline">Language</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 bg-blue-50">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">Discover Your Next Big Idea</h2>
+    <p class="text-lg text-gray-600">With Ideaova's smart tools and insights</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-6xl mx-auto p-6">
+    <h3 class="text-2xl font-semibold mb-4">About Ideaova</h3>
+    <p class="text-gray-700">We help entrepreneurs and visionaries turn their ideas into real businesses. Our tools leverage AI and industry insights to guide you step by step.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="max-w-6xl mx-auto p-6">
+    <h3 class="text-2xl font-semibold mb-4">Our Services</h3>
+    <ul class="list-disc pl-6 text-gray-700">
+      <li>AI Idea Generator (Free: <strong>StartSpark Plan</strong>)</li>
+      <li>Tailored Business Plans (Premium)</li>
+      <li>Market Research Tools</li>
+      <li>Startup Mentoring</li>
+    </ul>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="bg-blue-100 py-10">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-6">Pricing</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">StartSpark</h4>
+          <p class="text-gray-600">Free</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Pro</h4>
+          <p class="text-gray-600">€9.99/mo</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Enterprise</h4>
+          <p class="text-gray-600">Custom</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="max-w-6xl mx-auto p-6" id="reviews">
+    <h3 class="text-2xl font-semibold mb-4">What People Say</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-4 rounded shadow">
+        <p class="italic">“A perfect tool to validate my startup ideas quickly!”</p>
+        <span class="block mt-2 font-semibold">— Alex D.</span>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <p class="italic">“Saved me weeks of research. Love it!”</p>
+        <span class="block mt-2 font-semibold">— Sara M.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Banner -->
+  <section class="bg-gray-100 py-8">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-xl font-semibold mb-4">Our Technology Partners</h3>
+      <div class="flex justify-center gap-6">
+        <img src="firebase.svg" alt="Firebase" class="h-10">
+        <img src="openai.svg" alt="OpenAI" class="h-10">
+        <img src="vercel.svg" alt="Vercel" class="h-10">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-6xl mx-auto p-6">
+    <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+    <form class="space-y-4">
+      <input type="text" placeholder="Name" class="w-full border p-2 rounded" required>
+      <input type="email" placeholder="Email" class="w-full border p-2 rounded" required>
+      <textarea placeholder="Message" class="w-full border p-2 rounded" rows="5" required></textarea>
+      <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-6 mt-10">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-4 text-sm px-6">
+      <div>
+        <p>&copy; 2025 Ideaova. All rights reserved.</p>
+        <p>Registered Company: Ideaova Innovations GmbH</p>
+      </div>
+      <div class="flex flex-wrap gap-4 justify-end">
+        <a href="#privacy" class="hover:underline">Privacy Policy</a>
+        <a href="#terms" class="hover:underline">Terms & Conditions</a>
+        <a href="#site-map" class="hover:underline">Site Map</a>
+        <a href="#partners" class="hover:underline">Partners</a>
+        <a href="#disclaimer" class="hover:underline">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
